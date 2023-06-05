@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137640179383",
+    "project_id": "zooproject-b6c7b",
+    "storage_bucket": "zooproject-b6c7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137640179383:android:7c561530ace11c8a2f3f32",
+        "android_client_info": {
+          "package_name": "com.example.lab_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137640179383-ha3sknvd6moj2mrcvhl69udee3f61l7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAPislO9lF8ZRILK8_pBsspA_Ds_nEgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137640179383-ha3sknvd6moj2mrcvhl69udee3f61l7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

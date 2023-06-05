@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="animals_array">
+
+        <item>Cow</item>
+        <item>Tiger</item>
+        <item>Lion</item>
+        <item>Valeriaa</item>
+        <item>Penguin</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

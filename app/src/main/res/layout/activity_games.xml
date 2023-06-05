@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_height="match_parent"
+    tools:context=".GamesActivity">
+
+    <VideoView
+        android:id="@+id/winVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:textSize="30sp"
+            android:id="@+id/btn1ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn2ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn3ID"
+            android:layout_weight="1"
+            android:layout_margin="10sp"
+            android:onClick="setValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn4ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn5ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn6ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn7ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn8ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn9ID"
+            android:layout_weight="1"
+            android:onClick="setValue"
+            android:layout_margin="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
